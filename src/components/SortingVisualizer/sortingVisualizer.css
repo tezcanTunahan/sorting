@@ -1,0 +1,16 @@
+.sorting-container{
+    height: 92vh;
+    width: 100vw;
+    display: flex;
+}
+.array-bar-container{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+.array-bar{
+    width: 2px;
+    height: 50px;
+    background-color: black;
+    margin: 0px 1px 0px 1px;
+}

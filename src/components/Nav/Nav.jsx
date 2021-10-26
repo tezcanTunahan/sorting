@@ -1,7 +1,8 @@
+import "./nav.css"
 
 function Nav(){
     return (
-        <div>
+        <div className="nav-container">
             Nav
         </div>
     )

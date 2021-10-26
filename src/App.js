@@ -4,10 +4,10 @@ import SortingVisualizer from "./components/SortingVisualizer/SortingVisualizer"
 
 function App(){
     return (
-        <>
+        <div className="app-container">
             <Nav/>
             <SortingVisualizer/>
-        </>
+        </div>
     )
 }
 
