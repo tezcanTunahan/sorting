@@ -1,9 +1,13 @@
+import "./app.css"
+import Nav from "./components/Nav/Nav"
+import SortingVisualizer from "./components/SortingVisualizer/SortingVisualizer"
 
 function App(){
     return (
-        <div>
-            App
-        </div>
+        <>
+            <Nav/>
+            <SortingVisualizer/>
+        </>
     )
 }
 
