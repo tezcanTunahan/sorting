@@ -6,11 +6,15 @@
 .array-bar-container{
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
 }
 .array-bar{
     width: 2px;
     height: 50px;
-    background-color: black;
+    background-color: blueviolet;
     margin: 0px 1px 0px 1px;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

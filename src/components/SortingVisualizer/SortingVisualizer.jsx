@@ -1,5 +1,7 @@
 import { useState } from "react"
 import "./sortingVisualizer.css"
+import * as sort from "../../sortingAlgorithms/sortingAlgorithms"
+
 
 function SortingVisualizer(){
 
@@ -14,6 +16,28 @@ function SortingVisualizer(){
         }
         setArray(tempArr)
     }
+    function bubbleSort(){
+        setArray(sort.bubbleSort([...array]))
+    }
+    function mergeSort(){
+
+    }
+    function quickSort(){
+
+    }
+    function heapSort(){
+
+    }
+
+
+
+
+
+
+
+
+
+
 
     //from https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
     function getRandomArbitrary(min, max) {
@@ -24,13 +48,19 @@ function SortingVisualizer(){
         <div className="sorting-container">
             {array.map((value,idx)=>{
                 return(
-                    <div className="array-bar-container">
-                        <div className="array-bar" key={idx} style={{height: `${value}px`}}>
+                    <div className="array-bar-container" key={idx}>
+                        <div className="array-bar"  style={{height: `${value}px`}}>
                         </div>
                     </div>
                 )
             })}
-            <button onClick={resetArray}>reset</button>
+            <div className="btn-container">
+                <button onClick={resetArray}>Generete new array</button>
+                <button onClick={bubbleSort}>Bubble sort</button>
+                <button onClick={mergeSort}>Merge sort</button>
+                <button onClick={quickSort}>Quick sort</button>
+                <button onClick={heapSort}>Heap sort</button>
+            </div>
         </div>
     )
 }
