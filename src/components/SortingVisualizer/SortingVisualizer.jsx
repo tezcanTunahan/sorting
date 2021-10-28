@@ -7,7 +7,6 @@ function SortingVisualizer(){
 
     const [array,setArray] = useState([])
 
-
     function resetArray(){
         let tempArr = []
         setArray([])
@@ -16,8 +15,10 @@ function SortingVisualizer(){
         }
         setArray(tempArr)
     }
+
+
     function bubbleSort(){
-        sort.bubbleSort(array,setArray)
+        setArray(sort.bubbleSort([...array]))
     }
     function mergeSort(){
 
@@ -28,6 +29,7 @@ function SortingVisualizer(){
     function heapSort(){
 
     }
+
 
 
     //from https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
