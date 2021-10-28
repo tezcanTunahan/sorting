@@ -11,13 +11,13 @@ function SortingVisualizer(){
     function resetArray(){
         let tempArr = []
         setArray([])
-        for (let i = 0; i < 100; i++) {
-            tempArr.push(getRandomArbitrary(5,500))
+        for (let i = 0; i < 350; i++) {
+            tempArr.push(getRandomArbitrary(5,600))
         }
         setArray(tempArr)
     }
     function bubbleSort(){
-        setArray(sort.bubbleSort([...array]))
+        sort.bubbleSort(array,setArray)
     }
     function mergeSort(){
 
