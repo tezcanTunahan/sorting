@@ -1,20 +1,23 @@
-.sorting-container{
-    height: 92vh;
-    width: 100vw;
-    display: flex;
+.sorting-container {
+  height: 92vh;
+  width: 100vw;
+  display: flex;
 }
-.array-bar-container{
-    display: flex;
-    flex-direction: row;
+.array-bar-container {
+  display: flex;
+  flex-direction: row;
 }
-.array-bar{
-    width: 2px;
-    height: 50px;
-    background-color: blueviolet;
-    margin: 0px 1px 0px 1px;
+.array-bar {
+  width: 10px;
+  height: 50px;
+  background-color: blueviolet;
+  margin: 0px 1px 0px 1px;
 }
-.btn-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.color {
+  background-color: black;
 }
