@@ -12,8 +12,8 @@
 .array-bar {
   width: 10px;
   height: 40px;
-  background-color: blueviolet;
-  margin: 0px 1px 0px 1px;
+  background-color: #bbbaba;
+  margin: 2px;
 }
 .btn-container {
   display: flex;
@@ -21,13 +21,17 @@
   justify-content: center;
 }
 .color {
-  background-color: black;
+  background-color: #ffc700;
 }
 
 button {
+  background-color: #ffc700;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
   margin: 15px;
 }
-
 @media screen and (max-width: 650px) {
   .array-bar {
     width: 5px;

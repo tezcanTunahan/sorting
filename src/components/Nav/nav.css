@@ -1,7 +1,8 @@
 .nav-container {
   width: 100vw;
   height: 8vh;
-  background-color: darkgray;
+  background-color: #212121;
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   align-items: center;

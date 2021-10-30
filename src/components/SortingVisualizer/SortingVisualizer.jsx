@@ -9,7 +9,7 @@ function SortingVisualizer() {
   function resetArray() {
     let tempArr = [];
     setArray([]);
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 35; i++) {
       tempArr.push(randomIntFromInterval(5, 400));
     }
     setArray(tempArr);
@@ -25,7 +25,7 @@ function SortingVisualizer() {
           setCurrentIndex(j);
           setCurrentIndexTwo(j + 1);
         }
-        await sleep(10);
+        await sleep(30);
       }
     }
   }

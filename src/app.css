@@ -1,9 +1,9 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.app-container{
-    height: 100vh;
-    background-color: cornsilk;
+.app-container {
+  height: 100vh;
+  background-color: #363636;
 }
