@@ -1,6 +1,6 @@
-I still developer this one not complated
+It's a bubble sort algorithm visualizer made with react.js
 link : https://sortvisu.netlify.app/
-
+![Screenshot (107)](https://user-images.githubusercontent.com/84778158/139533997-78491507-bde2-4e3e-8afd-30a5eb12085c.png)
 
 # Getting Started with Create React App
 
