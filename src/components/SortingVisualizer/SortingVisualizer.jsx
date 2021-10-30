@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./sortingVisualizer.css";
-// import { bubbleSort } from "../helpers/algorithms";
 
 function SortingVisualizer() {
   const [array, setArray] = useState([]);
@@ -26,7 +25,7 @@ function SortingVisualizer() {
           setCurrentIndex(j);
           setCurrentIndexTwo(j + 1);
         }
-        await sleep(100);
+        await sleep(10);
       }
     }
   }
