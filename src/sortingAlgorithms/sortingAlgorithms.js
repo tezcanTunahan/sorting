@@ -14,7 +14,7 @@ export async function bubbleSort(
         setCurrentIndex(j);
         setCurrentIndexTwo(j + 1);
       }
-      await sleep(30);
+      await sleep(10);
     }
   }
 }
