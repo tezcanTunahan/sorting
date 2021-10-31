@@ -18,9 +18,12 @@ function SortingVisualizer() {
   function onClickBubbleSort() {
     sort.bubbleSort(array, setArray, setCurrentIndex, setCurrentIndexTwo);
   }
-  // function onClickSelectionSort() {
-  //   sort.selectionSort(array, setArray, setCurrentIndex, setCurrentIndexTwo);
-  // }
+  function onClickSelectionSort() {
+    sort.selectionSort(array, setArray, setCurrentIndex, setCurrentIndexTwo);
+  }
+  function onClickInsertionSort() {
+    sort.insertionSort(array, setArray, setCurrentIndex, setCurrentIndexTwo);
+  }
 
   //https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
   function randomIntFromInterval(min, max) {
@@ -45,7 +48,8 @@ function SortingVisualizer() {
       <div className="btn-container">
         <button onClick={resetArray}>Generete new array</button>
         <button onClick={onClickBubbleSort}>Bubble sort</button>
-        {/* <button onClick={onClickSelectionSort}>Selection sort</button> */}
+        <button onClick={onClickSelectionSort}>Selection sort</button>
+        <button onClick={onClickInsertionSort}>Insertion sort</button>
         {/* <button onClick={mergeSort}>Merge sort</button> */}
         {/* <button onClick={quickSort}>Quick sort</button> */}
         {/* <button onClick={heapSort}>Heap sort</button> */}
